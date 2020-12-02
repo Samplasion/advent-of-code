@@ -1,3 +1,8 @@
+# Copyright (c) 2020 Samplasion <samplasion@gmail.com>
+# 
+# This software is released under the MIT License.
+# https://opensource.org/licenses/MIT
+
 TARGET = 2020
 
 def main():
