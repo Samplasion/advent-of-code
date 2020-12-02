@@ -30,19 +30,14 @@ def phase1(numbers):
         f"Their product is {numbers[min]*numbers[max]}")
 
 def phase2(numbers):
-    done = False
     for i in numbers:
         for j in numbers:
             for k in numbers:
                 if i + j + k == TARGET:
                     print(f"[Phase 2] {i}, {j} and {k} are the numbers that amount to {TARGET}. " +
                         f"Their product is {i*j*k}")
-                    done = True
-                    break
-            if done:
-                break
-        if done:
-            break
+                    return
+    print(f"There's no group of 3 numbers that sums to {TARGET}.")
 
 if __name__ == '__main__':
     main()

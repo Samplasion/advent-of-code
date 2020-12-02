@@ -14,6 +14,6 @@ fi
 
 echo
 
-cd "./day $day"
+cd "./$day"
 ./run.sh
 cd ..
