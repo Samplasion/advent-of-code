@@ -1,8 +1,8 @@
 #!/bin/bash
 
-echo "==========================="
-echo "= Samplasion's AoC runner ="
-echo "==========================="
+echo "================================"
+echo "= Samplasion's AoC 2020 runner ="
+echo "================================"
 echo
 
 day="$([[ -p /dev/stdin ]] && cat - || echo "$@")"

@@ -1,4 +1,53 @@
 # Advent of Code
-My solutions for the Advent of Code yearly challenges
+My solutions for the Advent of Code yearly
+challenges
 
-The repository lacks the `input.txt` files required for the codes to work for brevity reasons.
+The repository lacks the `input.txt` files
+required for the codes to work for brevity
+reasons.
+
+## Table of Contents
+
+- [Advent of Code](#advent-of-code)
+  - [Table of Contents](#table-of-contents)
+  - [Languages](#languages)
+  - [Usage](#usage)
+- [Contributing](#contributing)
+
+## Languages
+
+* **Day 1**: Python
+* **Day 2**: Rust
+
+## Usage
+
+To run a particular day's solution, ensure that
+you have the relevant tools installed and added
+to your PATH.
+
+For example, to run the solution for day 2, you
+must ensure that you've installed Rust and Cargo.
+
+For convenience, I have included a `run.sh` file
+in the root of each year. You can use it like
+this:
+
+```sh
+$ ./run.sh 14 # a day number
+```
+
+but you can omit the number and it'll ask you.
+Alternatively, you can pipe it:
+
+```sh
+$ echo "1" | ./run.sh
+```
+
+# Contributing
+
+Please don't :D
+
+JK, you can contribute but please only do
+that for the solutions that I have already
+completed (doing otherwise would ruin the 
+concept of AoC).
