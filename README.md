@@ -11,10 +11,13 @@ reasons.
 - [Advent of Code](#advent-of-code)
   - [Table of Contents](#table-of-contents)
   - [Languages](#languages)
+    - [2020](#2020)
   - [Usage](#usage)
 - [Contributing](#contributing)
 
 ## Languages
+
+### 2020
 
 Given I'm best at JavaScript, I made my mission
 not to use it. If I do use it, I'll accept
