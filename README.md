@@ -16,6 +16,10 @@ reasons.
 
 ## Languages
 
+Given I'm best at JavaScript, I made my mission
+not to use it. If I do use it, I'll accept
+my defeat :D
+
 * **Day 1**: Python
 * **Day 2**: Rust
 
