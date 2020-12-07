@@ -31,7 +31,7 @@ def phase1(numbers):
         number = numbers[min] + numbers[max]
     # else: print("There's no pair of numbers that amounts to {}".format(TARGET))
 
-    print(f"[Phase 1] {numbers[min]} and {numbers[max]} are the numbers that amount to {TARGET}. " +
+    print(f"[Part 1] {numbers[min]} and {numbers[max]} are the numbers that amount to {TARGET}. " +
         f"Their product is {numbers[min]*numbers[max]}")
 
 def phase2(numbers):
@@ -39,7 +39,7 @@ def phase2(numbers):
         for j in numbers:
             for k in numbers:
                 if i + j + k == TARGET:
-                    print(f"[Phase 2] {i}, {j} and {k} are the numbers that amount to {TARGET}. " +
+                    print(f"[Part 2] {i}, {j} and {k} are the numbers that amount to {TARGET}. " +
                         f"Their product is {i*j*k}")
                     return
     print(f"There's no group of 3 numbers that sums to {TARGET}.")

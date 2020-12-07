@@ -1,0 +1,45 @@
+var max = -1;
+var IDs = [];
+var input = readFile("input.txt").split("\n");
+for (var i = 0; i < input.length(); i++)
+    IDs.push(i);
+
+input.forEach(lambda line -> {
+    var back = 127;
+    var front = 0;
+    var right = 7;
+    var left = 0;
+
+    var row = 0;
+    var col = 0;
+
+    for (var i = 0; i < 7; i++) {
+        var td = line[i];
+        if (td == "F") {
+            back = Math.floor(back-(back-front)/2);
+        } else {
+            front = Math.ceil(back-(back-front)/2);
+        }
+    }
+    // At this point, back == front
+    row = back;
+
+    for (var i = 7; i < 10; i++) {
+        var rl = line[i];
+        if (rl == "L") {
+            right = Math.floor(right-(right-left)/2);
+        } else {
+            left = Math.ceil(right-(right-left)/2);
+        }
+    }
+    // At this point, left == right
+    col = right;
+
+    var sid = row * 8 + col;
+    if (sid > max)
+        max = sid;
+    IDs.remove(sid);
+});
+
+console.print("[Part 1] The highest Seat ID of the list is", max + ".");
+console.print("[Part 2] Your seat ID is", IDs[-1] + ".");

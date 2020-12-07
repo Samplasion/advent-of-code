@@ -38,7 +38,7 @@ fn main() {
         }
     }
 
-    println!("[Phase 1] The valid passwords in your input are {}", valid);
+    println!("[Part 1] The valid passwords in your input are {}", valid);
 
     let mut valid2 = 0;
 
@@ -68,5 +68,5 @@ fn main() {
         }
     }
 
-    println!("[Phase 2] The valid passwords in your input are {}", valid2);
+    println!("[Part 2] The valid passwords in your input are {}", valid2);
 }

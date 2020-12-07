@@ -13,6 +13,7 @@ reasons.
   - [Languages](#languages)
     - [2020](#2020)
   - [Usage](#usage)
+  - [What's with Plon?](#whats-with-plon)
 - [Contributing](#contributing)
 
 ## Languages
@@ -25,6 +26,9 @@ my defeat :D
 
 * **Day 1**: Python
 * **Day 2**: Rust
+* **Day 3**: *WIP*
+* **Day 4**: *WIP*
+* **Day 5**: [Plon](#whats-with-plon)
 
 ## Usage
 
@@ -49,6 +53,15 @@ Alternatively, you can pipe it:
 ```sh
 $ echo "1" | ./run.sh
 ```
+
+## What's with Plon?
+
+Plon is a work-in-progress language I'm writing
+for my Discord bot Plum. An interpreter for it
+isn't available at the moment, but the syntax
+is similar to other C-family languages
+(specifically, JavaScript), so the algorithm
+isn't completely hidden behind the language.
 
 # Contributing
 
