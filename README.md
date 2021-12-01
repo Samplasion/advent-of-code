@@ -1,4 +1,5 @@
 # Advent of Code
+
 My solutions for the Advent of Code yearly
 challenges
 
@@ -12,8 +13,8 @@ reasons.
   - [Table of Contents](#table-of-contents)
   - [Languages](#languages)
     - [2020](#2020)
+    - [2021](#2021)
   - [Usage](#usage)
-  - [What's with Plon?](#whats-with-plon)
 - [Contributing](#contributing)
 
 ## Languages
@@ -28,7 +29,11 @@ my defeat :D
 * **Day 2**: Rust
 * **Day 3**: *WIP*
 * **Day 4**: *WIP*
-* **Day 5**: [Plon](#whats-with-plon)
+* **Day 5**: Plon
+
+### 2021
+
+* **Day 1**: *Python*
 
 ## Usage
 
@@ -53,15 +58,6 @@ Alternatively, you can pipe it:
 ```sh
 $ echo "1" | ./run.sh
 ```
-
-## What's with Plon?
-
-Plon is a work-in-progress language I'm writing
-for my Discord bot Plum. An interpreter for it
-isn't available at the moment, but the syntax
-is similar to other C-family languages
-(specifically, JavaScript), so the algorithm
-isn't completely hidden behind the language.
 
 # Contributing
 
