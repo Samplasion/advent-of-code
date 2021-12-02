@@ -34,6 +34,7 @@ my defeat :D
 ### 2021
 
 * **Day 1**: Python
+* **Day 2**: C++
 
 ## Usage
 
