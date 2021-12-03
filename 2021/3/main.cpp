@@ -91,14 +91,35 @@ void part1(bitsetVec bitsets)
     std::cout << "[Part 1] The power consumption of the submarine is: " << finalGamma * finalEpsilon << std::endl;
 }
 
-// PART 2 REDACTED
+// Part 2 partly based on https://www.reddit.com/r/adventofcode/comments/r7r0ff/2021_day_3_solutions/hn2r5qx/
+bitset12 lifeReport(bitsetVec bitsets, bool complement, int bit)
+{
+    if (bitsets.size() == 1)
+    {
+        return bitsets[0];
+    }
+
+    auto target = mostCommon(bitsets)[bit] ^ complement;
+    bitsetVec res = filterVector(bitsets, [&target, bit](bitset12 const &b)
+                                 { return b[bit] == target; });
+
+    return lifeReport(res, complement, bit - 1);
+}
+
+void part2(bitsetVec bitsets)
+{
+    auto oxygen = lifeReport(bitsets, 0, bitsets[0].size() - 1);
+    auto carbon = lifeReport(bitsets, 1, bitsets[0].size() - 1);
+
+    std::cout << "[Part 2] The final life support rating is: " << (oxygen.to_ullong() * carbon.to_ullong()) << std::endl;
+}
 
 int main(int argc, const char *argv[])
 {
     auto v = readFile();
 
     part1(v);
-    // part2(v);
+    part2(v);
 
     return 0;
 }
