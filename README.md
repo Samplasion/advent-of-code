@@ -36,6 +36,7 @@ my defeat :D
 * **Day 1**: Python
 * **Day 2**: C++
 * **Day 3**: C++
+* **Day 4**: Dart
 
 ## Usage
 
