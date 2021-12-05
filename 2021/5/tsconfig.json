@@ -11,7 +11,7 @@
         "allowSyntheticDefaultImports": true,
     },
     "include": [
-        "./index.ts"
+        "./main.ts"
     ],
     "exclude": []
 }

@@ -2,7 +2,7 @@
   "name": "day5",
   "version": "1.0.0",
   "description": "Day 5 of AoC 2021",
-  "main": "index.js",
+  "main": "main.js",
   "author": "Samplasion",
   "license": "MIT",
   "dependencies": {
@@ -11,6 +11,6 @@
   },
   "scripts": {
     "compile": "tsc",
-    "start": "node index.js"
+    "start": "node main.js"
   }
 }

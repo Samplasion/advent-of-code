@@ -82,7 +82,7 @@ for (const [start, end] of straight.reverse()) {
     }
 }
 
-console.log("[Part 1] The number of points where two or more lines intersect is:", grid.data.filter(x => x >= 2).length);
+console.log("[Part 1] The number of points where two or more lines intersect, excluding diagonals, is:", grid.data.filter(x => x >= 2).length);
 
 for (const [start, end] of diag) {
     // Diagonal (45 degrees)
@@ -98,4 +98,4 @@ for (const [start, end] of diag) {
     }
 }
 
-console.log("[Part 2] The number of points where two or more lines intersect is:", grid.data.filter(x => x >= 2).length);
+console.log("[Part 2] The number of points where two or more lines intersect, including diagonals, is:", grid.data.filter(x => x >= 2).length);
