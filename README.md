@@ -33,11 +33,14 @@ my defeat :D
 
 ### 2021
 
+[Moved to Samplasion/aoc2021](https://github.com/Samplasion/aoc2021).
+
 * **Day 1**: Python
 * **Day 2**: C++
 * **Day 3**: C++
 * **Day 4**: Dart
 * **Day 5**: TypeScript
+* **Days 6-25**: [Moved to Samplasion/aoc2021](https://github.com/Samplasion/aoc2021)
 
 ## Usage
 
