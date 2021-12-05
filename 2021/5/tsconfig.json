@@ -1,0 +1,17 @@
+{
+    "compilerOptions": {
+        "strict": true,
+        "noImplicitAny": true,
+        "strictNullChecks": true,
+        "lib": [
+            "es2021",
+            "dom"
+        ],
+        "outDir": ".",
+        "allowSyntheticDefaultImports": true,
+    },
+    "include": [
+        "./index.ts"
+    ],
+    "exclude": []
+}

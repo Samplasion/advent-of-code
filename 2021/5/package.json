@@ -1,0 +1,16 @@
+{
+  "name": "day5",
+  "version": "1.0.0",
+  "description": "Day 5 of AoC 2021",
+  "main": "index.js",
+  "author": "Samplasion",
+  "license": "MIT",
+  "dependencies": {
+    "@types/node": "^16.11.11",
+    "typescript": "^4.5.2"
+  },
+  "scripts": {
+    "compile": "tsc",
+    "start": "node index.js"
+  }
+}
